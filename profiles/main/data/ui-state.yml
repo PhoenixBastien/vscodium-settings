@@ -1,5 +1,4 @@
-ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.python","pinned":true,"visible":false,"order":8},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -78,12 +77,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
   erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
-  \"}]},{\"id\":\"workbench.view.extension.python\",\"iconUrl\":{\"$mid\":1,\"p\
-  ath\":\"%%EXTENSION_DATA_PATH%%/ms-python.vscode-python-envs-1.10.0-universal\
-  /files/logo.svg\",\"scheme\":\"file\"},\"name\":\"Python\",\"isBuiltin\":fals\
-  e,\"views\":[{\"when\":\"config.python.useEnvironmentsExtension\"},{\"when\":\
-  \"config.python.useEnvironmentsExtension\"}]},{\"id\":\"workbench.panel.chatS\
-  idebar\",\"name\":\"Chat (Old
+  \"}]},{\"id\":\"workbench.panel.chatSidebar\",\"name\":\"Chat (Old
   Location)\",\"isBuiltin\":false},{\"id\":\"userDataProfiles\",\"name\":\"Prof\
   ils\",\"isBuiltin\":false}]"
 workbench.activityBar.location: default
@@ -96,7 +90,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chatEditing",
   !config.chat.disableAIFeatures"}]}]'
 workbench.auxiliaryBar.size: "300"
 workbench.chat.hideMovedChatWelcomeView: "true"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["plaintext",true],["python",true],["yaml",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["jsonc",true],["plaintext",true],["python",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
@@ -111,13 +105,14 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "256"
+workbench.panel.size: "678"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
 workbench.sideBar.size: "300"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":true},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "11"
+workbench.views.extensions.installed.size: "9"
+workbench.welcomePage.hiddenCategories: '["Beginner","ms-python.python#pythonWelcome","Setup"]'
 workbench.welcomePage.walkthroughMetadata: '[["ms-python.python#pythonWelcome",{"firstSeen":1761908144277,"stepIDs":["python.createPythonFolder","python.createPythonFile","python.installPythonWin8","python.installPythonMac","python.installPythonLinux","python.createEnvironment","python.runAndDebug","python.learnMoreWithDS"],"manaullyOpened":false}],["ms-python.python#pythonDataScienceWelcome",{"firstSeen":1761908144277,"stepIDs":["python.installJupyterExt","python.createNewNotebook","python.openInteractiveWindow","python.dataScienceLearnMore"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
