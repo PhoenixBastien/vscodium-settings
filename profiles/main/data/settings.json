@@ -21,6 +21,11 @@
     "files.autoGuessEncoding": true,
     "livePreview.notifyOnOpenLooseFile": false,
     "security.workspace.trust.enabled": false,
+    "syncSettings.crons": {
+        "download": "0 9 * * *", // at 9AM, every day
+        "review": "0 * * * *", // every hour
+        "upload": "0 17 * * *" // at 5PM, every day
+    },
     "update.showReleaseNotes": false,
     "workbench.colorTheme": "Dracula Theme",
     "workbench.iconTheme": "material-icon-theme"
